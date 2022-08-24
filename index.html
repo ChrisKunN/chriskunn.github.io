@@ -44,13 +44,10 @@
                     <a href="" class="nav__links">Home</a>
                 </li>
                 <li class="nav__items ">
-                    <a href="" class="nav__links">About us</a>
+                    <a href="#section1" class="nav__links">About us</a>
                 </li>
                 <li class="nav__items ">
-                    <a href="" class="nav__links">Contact</a>
-                </li>
-                <li class="nav__items ">
-                    <a href="" class="nav__links">Blog</a>
+                    <a href="#section2" class="nav__links">Contact</a>
                 </li>
                 <img src="./images/close.svg" alt="close" class="nav__close">
             </ul>
@@ -65,12 +62,12 @@
             <p class="hero__paragraph">
                 basic model website
             </p>
-            <a href="" class="cta">Begin Now</a>
+            <a href="#prices" class="cta">Begin Now</a>
         </section>
     </header>
 
-    <main class="main__section">
-        <section class="container about">
+    <main>
+        <section class="container about" id="section1">
             <h2 class="subtitle">
                 Main Content of the page.
             </h2>
@@ -118,7 +115,7 @@
                         aliquid, fugit debitis, culpa reiciendis quod reprehenderit quasi corrupti deserunt rem. Quasi
                         autem atque aliquam facere suscipit.
                     </p>
-                    <a href="" class="cta">Subscribe </a>
+                    <a href="#prices" class="cta">Subscribe </a>
                 </div>
                 <figure class="knowledge__picture">
                     <img src="./images/computer.jpg" alt="" class="knowledge__img">
@@ -127,7 +124,7 @@
         </section>
 
         <section class="price container">
-            <h2 class="subtitle"> Get your suscription now.</h2>
+            <h2 class="subtitle" id="prices"> Get your suscription now.</h2>
             <div class="price__table">
                 <div class="price__element">
                     <p class="price__name">basic</p>
@@ -291,7 +288,7 @@
                 <p class="questions__copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione
                     architecto magnam, officiis ex porro vero est voluptates quaerat quibusdam illo veniam reprehenderit
                     eius atque tempora iure ab non autem.</p>
-                <a href="#" class="cta">Go Now</a>
+                <a href="#prices" class="cta">Go Now</a>
             </section>
         </section>
 
@@ -304,24 +301,22 @@
 
                 <ul class="nav__link nav__link--footer">
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Home</a>
+                        <a href="" class="nav__links">Home</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">About</a>
+                        <a href="#section1" class="nav__links">About</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Contact</a>
+                        <a href="#section2" class="nav__links">Contact</a>
                     </li>
-                    <li class="nav__items">
-                        <a href="#" class="nav__links">Blog</a>
-                    </li>
+                    
                 </ul>
             </nav>
 
             <form class="footer__form" action="https://formspree.io/f/xbjblobv"
             method="POST">
                 <h2 class="footer__newsletter">Subscribe to newsletter</h2>
-                <div class="footer__inputs">
+                <div class="footer__inputs" id="section2">
                    <input type="email" placeholder="Email" class="footer__input" name="email">
                    <input type="submit"  class="footer__submit" value="Register">
                 </div>
@@ -329,9 +324,9 @@
         </section>
         <section class="footer__copy container">
             <div class="footer__social">
-                <a href="" class="footer_icons"><img src="./images/linkedin.svg" alt="linkedin" class="footer__img"></a>
-                <a href="" class="footer_icons"><img src="./images/twitter.svg" alt="twitter" class="footer__img"></a>
-                <a href="" class="footer_icons"><img src="./images/instagram.svg" alt="instagram" class="footer__img"></a>
+                <a href="https://www.linkedin.com/in/christian-arce-98030078/" target="_blank" class="footer_icons"><img src="./images/linkedin.svg" alt="linkedin" class="footer__img"></a>
+                <a href="https://twitter.com/ChrisKunCba" target="_blank" class="footer_icons"><img src="./images/twitter.svg" alt="twitter" class="footer__img"></a>
+                <a href="https://www.instagram.com/chrisstone.ok/" target="_blank" class="footer_icons"><img src="./images/instagram.svg" alt="instagram" class="footer__img"></a>
             </div>
             <h3 class="footer__copyright">Rights reserved &copy; Christian Arce. </h3>
         </section>
